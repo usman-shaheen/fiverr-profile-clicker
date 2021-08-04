@@ -13,10 +13,6 @@ url="https://www.fiverr.com/your-username"
 driver=webdriver.Chrome(path)
 driver.get(url)
 
-#search in the search box
-# search=driver.find_element_by_name('s')
-# search.send_keys('code')
-# search.send_keys(Keys.RETURN)
 
 #select main section and perform action in it
 try:
